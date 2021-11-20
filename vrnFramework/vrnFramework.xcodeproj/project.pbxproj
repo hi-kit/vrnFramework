@@ -11,12 +11,6 @@
 		CE02B84B27454554002330CB /* vrnFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE02B84027454554002330CB /* vrnFramework.framework */; };
 		CE02B85027454554002330CB /* vrnFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B84F27454554002330CB /* vrnFrameworkTests.swift */; };
 		CE02B85127454554002330CB /* vrnFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CE02B84327454554002330CB /* vrnFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE02B8612745456F002330CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B8602745456F002330CB /* AppDelegate.swift */; };
-		CE02B8632745456F002330CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B8622745456F002330CB /* SceneDelegate.swift */; };
-		CE02B8652745456F002330CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B8642745456F002330CB /* ViewController.swift */; };
-		CE02B8682745456F002330CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE02B8662745456F002330CB /* Main.storyboard */; };
-		CE02B86A27454571002330CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE02B86927454571002330CB /* Assets.xcassets */; };
-		CE02B86D27454571002330CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE02B86B27454571002330CB /* LaunchScreen.storyboard */; };
 		CE02B87327454918002330CB /* vrnFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B87227454918002330CB /* vrnFramework.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,14 +30,6 @@
 		CE02B84427454554002330CB /* vrnFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = vrnFramework.docc; sourceTree = "<group>"; };
 		CE02B84A27454554002330CB /* vrnFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vrnFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE02B84F27454554002330CB /* vrnFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vrnFrameworkTests.swift; sourceTree = "<group>"; };
-		CE02B85E2745456F002330CB /* vrnFrameworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vrnFrameworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE02B8602745456F002330CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE02B8622745456F002330CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE02B8642745456F002330CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE02B8672745456F002330CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE02B86927454571002330CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE02B86C27454571002330CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CE02B86E27454571002330CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE02B87227454918002330CB /* vrnFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vrnFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE02B85B2745456F002330CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +58,6 @@
 				CE02B87227454918002330CB /* vrnFramework.swift */,
 				CE02B84227454554002330CB /* vrnFramework */,
 				CE02B84E27454554002330CB /* vrnFrameworkTests */,
-				CE02B85F2745456F002330CB /* vrnFrameworkExample */,
 				CE02B84127454554002330CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +67,6 @@
 			children = (
 				CE02B84027454554002330CB /* vrnFramework.framework */,
 				CE02B84A27454554002330CB /* vrnFrameworkTests.xctest */,
-				CE02B85E2745456F002330CB /* vrnFrameworkExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,20 +86,6 @@
 				CE02B84F27454554002330CB /* vrnFrameworkTests.swift */,
 			);
 			path = vrnFrameworkTests;
-			sourceTree = "<group>";
-		};
-		CE02B85F2745456F002330CB /* vrnFrameworkExample */ = {
-			isa = PBXGroup;
-			children = (
-				CE02B8602745456F002330CB /* AppDelegate.swift */,
-				CE02B8622745456F002330CB /* SceneDelegate.swift */,
-				CE02B8642745456F002330CB /* ViewController.swift */,
-				CE02B8662745456F002330CB /* Main.storyboard */,
-				CE02B86927454571002330CB /* Assets.xcassets */,
-				CE02B86B27454571002330CB /* LaunchScreen.storyboard */,
-				CE02B86E27454571002330CB /* Info.plist */,
-			);
-			path = vrnFrameworkExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,23 +138,6 @@
 			productReference = CE02B84A27454554002330CB /* vrnFrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE02B85D2745456F002330CB /* vrnFrameworkExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE02B86F27454571002330CB /* Build configuration list for PBXNativeTarget "vrnFrameworkExample" */;
-			buildPhases = (
-				CE02B85A2745456F002330CB /* Sources */,
-				CE02B85B2745456F002330CB /* Frameworks */,
-				CE02B85C2745456F002330CB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = vrnFrameworkExample;
-			productName = vrnFrameworkExample;
-			productReference = CE02B85E2745456F002330CB /* vrnFrameworkExample.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,9 +152,6 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					CE02B84927454554002330CB = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					CE02B85D2745456F002330CB = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -228,7 +171,6 @@
 			targets = (
 				CE02B83F27454554002330CB /* vrnFramework */,
 				CE02B84927454554002330CB /* vrnFrameworkTests */,
-				CE02B85D2745456F002330CB /* vrnFrameworkExample */,
 			);
 		};
 /* End PBXProject section */
@@ -245,16 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE02B85C2745456F002330CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE02B86D27454571002330CB /* LaunchScreen.storyboard in Resources */,
-				CE02B86A27454571002330CB /* Assets.xcassets in Resources */,
-				CE02B8682745456F002330CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,16 +210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE02B85A2745456F002330CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE02B8652745456F002330CB /* ViewController.swift in Sources */,
-				CE02B8612745456F002330CB /* AppDelegate.swift in Sources */,
-				CE02B8632745456F002330CB /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -297,25 +219,6 @@
 			targetProxy = CE02B84C27454554002330CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CE02B8662745456F002330CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE02B8672745456F002330CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE02B86B27454571002330CB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE02B86C27454571002330CB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE02B85227454554002330CB /* Debug */ = {
@@ -536,60 +439,6 @@
 			};
 			name = Release;
 		};
-		CE02B87027454571002330CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = vrnFrameworkExample/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.office.digital.vrnFrameworkExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CE02B87127454571002330CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = vrnFrameworkExample/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.office.digital.vrnFrameworkExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -616,15 +465,6 @@
 			buildConfigurations = (
 				CE02B85827454554002330CB /* Debug */,
 				CE02B85927454554002330CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE02B86F27454571002330CB /* Build configuration list for PBXNativeTarget "vrnFrameworkExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE02B87027454571002330CB /* Debug */,
-				CE02B87127454571002330CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
